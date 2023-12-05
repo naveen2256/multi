@@ -1,14 +1,14 @@
 pipeline{
     agent any
     stages {
-        stage('main branch') {
+        stage('sprint branch') {
             steps {
-                sh 'echo "main branch" '
+                sh 'echo "sprint branch" '
             }
         }
         stage('test') {
             steps {
-                sh 'echo "sprint1 applicaiton....." '
+                sh 'echo "task applicaiton....." '
             }
         }
         stage('deploy application') {
