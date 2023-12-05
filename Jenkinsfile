@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages {
-        stage('main branch latest 1234') {
+        stage('main branch') {
             steps {
-                sh 'echo "main branch latest 1234" '
+                sh 'echo "main branch" '
             }
         }
         stage('test') {
