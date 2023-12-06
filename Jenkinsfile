@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('uat branch') {
             steps {
-                sh 'echo "uat branch changes" '
+                sh 'echo "uat testing changes" '
             }
         }
         stage('test') {
