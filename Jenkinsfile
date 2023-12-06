@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('main branch') {
             steps {
-                sh 'echo "main branch" '
+                sh 'echo "main branch changes" '
             }
         }
         stage('test') {
