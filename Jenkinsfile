@@ -1,9 +1,9 @@
 pipeline{
     agent any
     stages {
-        stage('main branch') {
+        stage('uat branch') {
             steps {
-                sh 'echo "main branch changes" '
+                sh 'echo "uat branch changes" '
             }
         }
         stage('test') {
